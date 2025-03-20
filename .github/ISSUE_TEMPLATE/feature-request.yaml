@@ -1,0 +1,44 @@
+name: Feature Request
+description: Suggest a new feature or improvement for the project.
+labels:
+  - enhancement
+assignees:
+  - whitigol
+title: "[Feature Request] <title>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the sections below to help us understand your feature request.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: What would you like to see in the project?
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Describe the feature you'd like to see.
+  - type: input
+    id: reason
+    attributes:
+      label: Reason
+      placeholder: Why do you want this feature?
+  - type: input
+    id: additional-context
+    attributes:
+      label: Additional Context
+      placeholder: Add any additional context or screenshots about the feature request here.
+  # Upload files
+  - type: file
+    id: file
+    attributes:
+      label: Upload Files
+      placeholder: Upload any files related to the feature request here.
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank You!
+
+        Thank you for taking the time to submit a feature request. We will review your request and get back to you as soon as possible.
