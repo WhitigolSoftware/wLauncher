@@ -1,0 +1,48 @@
+name: Bug Report
+description: Report a bug or issue with the project.
+labels:
+  - bug
+assignees:
+  - whitigol
+title: "[Bug Report] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the sections below to help us understand your bug report.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: What version of wLauncher are you using?
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: What is the title of the bug?
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Describe the bug in detail. Include screenshots if possible.
+  - type: input
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      placeholder: What steps can we take to reproduce the bug?
+  - type: input
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      placeholder: What should have happened?
+  - type: input
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      placeholder: What actually happened?
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank You!
+
+        Thank you for taking the time to submit a bug report. We will review your report and get back to you as soon as possible.
