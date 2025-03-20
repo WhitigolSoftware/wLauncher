@@ -30,12 +30,6 @@ body:
     attributes:
       label: Additional Context
       placeholder: Add any additional context or screenshots about the feature request here.
-  # Upload files
-  - type: file
-    id: file
-    attributes:
-      label: Upload Files
-      placeholder: Upload any files related to the feature request here.
   - type: markdown
     attributes:
       value: |
