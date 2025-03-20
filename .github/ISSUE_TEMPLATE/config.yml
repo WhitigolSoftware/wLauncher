@@ -1,0 +1,4 @@
+blank_issues_enabled: false
+
+issue_template:
+  - feature-request.yaml
